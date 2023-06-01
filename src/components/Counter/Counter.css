@@ -23,9 +23,11 @@ button {
   background: rgb(75, 75, 75);
   width: 2rem;
   height: 2rem;
+  border-radius: 100%;
 }
 
 .Counter__gist {
-  width: 50%;
+  max-width: 100%;
+  width: 50rem;
   height: 10rem;
 }
