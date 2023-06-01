@@ -16,3 +16,4 @@ Simple React Components for Frontend Devs
 - Popup
 - Tabs
 - Tool Tips
+- Toggle Button
