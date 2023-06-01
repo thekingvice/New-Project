@@ -12,7 +12,6 @@ Simple React Components for Frontend Devs
 - Progress Bar
 - Progress Indicator
 - Date Picker
-- Custom Color Picker
 - Popup
 - Tabs
 - Tool Tips
