@@ -20,9 +20,13 @@ export default function Counter() {
     <div className="Counter">
       <h1 className="Counter__h1">Counter</h1>
       <div className="Counter__wrapper">
-        <button onClick={handleIncrementMinus}>-</button>
+        <button className="Counter__button" onClick={handleIncrementMinus}>
+          -
+        </button>
         <div>{counter}</div>
-        <button onClick={handleIncrementPlus}>+</button>
+        <button className="Counter__button" onClick={handleIncrementPlus}>
+          +
+        </button>
       </div>
 
       <div className="Counter__gist">

@@ -1,4 +1,4 @@
-.Counter {
+.Carrousel {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,18 +6,18 @@
   gap: 2rem;
 }
 
-.Counter__wrapper {
+.Carrousel__wrapper {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-.Counter__h1 {
+.Carrousel__h1 {
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-.Counter__button {
+.Carrousel__button {
   cursor: pointer;
   color: white;
   background: rgb(75, 75, 75);
@@ -26,7 +26,7 @@
   border-radius: 100%;
 }
 
-.Counter__gist {
+.Carrousel__gist {
   max-width: 100%;
   width: 50rem;
 }
