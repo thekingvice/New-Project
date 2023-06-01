@@ -2,9 +2,9 @@
 
 Simple React Components for Frontend Devs
 
-- Counter
+- Counter (done)
 - Dropdown
-- Image Carrousel
+- Image Carrousel (done)
 - Hamburger Menu
 - Accordian
 - Light and Dark Toggle
@@ -16,3 +16,4 @@ Simple React Components for Frontend Devs
 - Tabs
 - Tool Tips
 - Toggle Button
+- Radio Buttons
