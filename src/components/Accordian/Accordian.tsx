@@ -9,11 +9,11 @@ export default function Accordian() {
 
   function handleOpenTab(num: number) {
     const array = [...accordionTabs];
-    const closeAllTabs = () => {
+    function closeAllTabs() {
       for (let i = 0; i < array.length; i++) {
         array[i].isOpen = false;
       }
-    };
+    }
     if (array[num].isOpen) {
       closeAllTabs();
     } else {
