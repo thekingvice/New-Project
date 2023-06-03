@@ -23,6 +23,7 @@
 .Accordian__tab {
   background: rgb(75, 75, 75);
   padding: 1rem;
+  cursor: pointer;
 }
 
 .Accordian__gist {

@@ -13,7 +13,7 @@ UNDER CONSTRUCTION
 - Accordian (done)
 - Light and Dark Toggle
 - Input Validation with Regex
-- Progress Bar
+- Progress Bar (done)
 - Progress Indicator
 - Date Picker
 - Popup
