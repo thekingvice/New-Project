@@ -1,7 +1,7 @@
 import "./App.css";
-import Counter from "./Counter/Counter";
-import Carrousel from "./Carrousel/Carrousel";
-import Accordian from "./Accordian/Accordian";
+import Counter from "./Components/Counter/Counter";
+import Carrousel from "./Components/Carrousel/Carrousel";
+import Accordian from "./Components/Accordian/Accordian";
 
 function App() {
   return (
