@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <Counter />
+      <ProgressBar />
       <Carrousel />
       <Accordian />
-      <ProgressBar />
     </div>
   );
 }
