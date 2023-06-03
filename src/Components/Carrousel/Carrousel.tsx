@@ -36,7 +36,11 @@ export default function Carrousel() {
           className="Carrousel__button"
           onClick={incrementPositionMinus}
         >{`<`}</button>
-        <img src={imagePaths[position]} alt="carrousel-image" />
+        <img
+          className="Carrousel__image"
+          src={imagePaths[position]}
+          alt="carrousel-image"
+        />
         <button
           className="Carrousel__button"
           onClick={incrementPositionPlus}

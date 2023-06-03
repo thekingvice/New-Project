@@ -26,6 +26,10 @@
   border-radius: 100%;
 }
 
+.Carrousel__image {
+  width: 10rem;
+}
+
 .Carrousel__gist {
   max-width: 100%;
   width: 50rem;
