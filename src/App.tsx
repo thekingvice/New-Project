@@ -6,12 +6,12 @@ import ProgressBar from "./Components/ProgressBar/ProgressBar";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Counter />
       <Carrousel />
       <Accordian />
       <ProgressBar />
-    </>
+    </div>
   );
 }
 
