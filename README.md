@@ -10,7 +10,7 @@ UNDER CONSTRUCTION
 - Dropdown
 - Image Carrousel (done)
 - Hamburger Menu
-- Accordian
+- Accordian (done)
 - Light and Dark Toggle
 - Input Validation with Regex
 - Progress Bar
