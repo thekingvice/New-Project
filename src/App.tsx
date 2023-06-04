@@ -3,7 +3,8 @@ import Counter from "./Components/Counter/Counter";
 import Carrousel from "./Components/Carrousel/Carrousel";
 import Accordian from "./Components/Accordian/Accordian";
 import ProgressBar from "./Components/ProgressBar/ProgressBar";
-import ToolTip from "./ToolTip/ToolTip";
+import ToolTip from "./Components/ToolTip/ToolTip";
+import Popup from "./Components/Popup/Popup";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Carrousel />
       <Accordian />
       <ToolTip />
+      <Popup />
     </div>
   );
 }
