@@ -28,11 +28,12 @@
   position: absolute;
   visibility: hidden;
   width: fit-content;
-  transform: translateY(1rem) translateX(-0.5rem);
-  border-radius: 1rem;
+  transform: translateY(1rem);
+  border-radius: 0.5rem;
   padding: 0.25rem 1rem;
   white-space: nowrap;
   background: rgb(75, 75, 75);
+  font-size: 0.75rem;
 }
 
 .ToolTip__Gist {

@@ -18,6 +18,6 @@ UNDER CONSTRUCTION
 - Date Picker
 - Popup
 - Tabs
-- Tool Tips
+- Tool Tip (done)
 - Toggle Button
 - Radio Buttons
