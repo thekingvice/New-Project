@@ -1,0 +1,12 @@
+.Dropdown__wrapper {
+  position: relative;
+}
+
+.Dropdown__wrapper:hover > .Dropdown__options {
+  display: block;
+}
+
+.Dropdown__options {
+  position: absolute;
+  display: none;
+}

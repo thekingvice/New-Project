@@ -5,6 +5,7 @@ import Accordian from "./Components/Accordian/Accordian";
 import ProgressBar from "./Components/ProgressBar/ProgressBar";
 import ToolTip from "./Components/ToolTip/ToolTip";
 import Popup from "./Components/Popup/Popup";
+import Dropdown from "./Components/Dropdown/Dropdown";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Accordian />
       <ToolTip />
       <Popup />
+      <Dropdown />
     </div>
   );
 }

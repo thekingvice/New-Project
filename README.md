@@ -16,7 +16,7 @@ UNDER CONSTRUCTION
 - Progress Bar (done)
 - Progress Indicator
 - Date Picker
-- Popup
+- Popup (done)
 - Tabs
 - Tool Tip (done)
 - Toggle Button
