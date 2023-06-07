@@ -1,3 +1,21 @@
+.Dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.Dropdown__h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 .Dropdown__wrapper {
   position: relative;
 }
