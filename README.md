@@ -7,7 +7,7 @@ Visit the live site @ https://simple-react-components-three.vercel.app/
 UNDER CONSTRUCTION
 
 - Counter (done)
-- Dropdown
+- Dropdown (done)
 - Image Carrousel (done)
 - Hamburger Menu
 - Accordian (done)
@@ -15,7 +15,6 @@ UNDER CONSTRUCTION
 - Input Validation with Regex
 - Progress Bar (done)
 - Progress Indicator
-- Date Picker
 - Popup (done)
 - Tabs
 - Tool Tip (done)
