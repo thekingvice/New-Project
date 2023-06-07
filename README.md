@@ -16,7 +16,7 @@ UNDER CONSTRUCTION
 - Progress Bar (done)
 - Progress Indicator
 - Popup (done)
-- Tabs
+- Tabs (done)
 - Tool Tip (done)
 - Toggle Button
 - Radio Buttons

@@ -6,6 +6,7 @@ import ProgressBar from "./Components/ProgressBar/ProgressBar";
 import ToolTip from "./Components/ToolTip/ToolTip";
 import Popup from "./Components/Popup/Popup";
 import Dropdown from "./Components/Dropdown/Dropdown";
+import Tabs from "./Components/Tabs/Tabs";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ToolTip />
       <Popup />
       <Dropdown />
+      <Tabs />
     </div>
   );
 }
