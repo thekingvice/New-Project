@@ -7,6 +7,7 @@ import ToolTip from "./Components/ToolTip/ToolTip";
 import Popup from "./Components/Popup/Popup";
 import Dropdown from "./Components/Dropdown/Dropdown";
 import Tabs from "./Components/Tabs/Tabs";
+import RadioButtons from "./Components/RadioButtons/RadioButtons";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Popup />
       <Dropdown />
       <Tabs />
+      <RadioButtons />
     </div>
   );
 }
