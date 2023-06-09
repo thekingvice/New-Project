@@ -20,3 +20,5 @@ UNDER CONSTRUCTION
 - Tool Tip (done)
 - Toggle Button
 - Radio Buttons
+
+-Bug fixed in Accordian, update corresponding gist

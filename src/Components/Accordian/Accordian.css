@@ -26,6 +26,10 @@
   cursor: pointer;
 }
 
+.Accordian__tab-content {
+  padding: 1rem;
+}
+
 .Accordian__gist {
   max-width: 100%;
   width: 50rem;
