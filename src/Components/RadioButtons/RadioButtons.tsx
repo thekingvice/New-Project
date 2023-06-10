@@ -1,4 +1,6 @@
 import { useState } from "react";
+import "./RadioButtons.css";
+import Gist from "super-react-gist";
 
 export default function RadioButtons() {
   const [radioButtons, setRadioButtons] = useState([
@@ -20,21 +22,30 @@ export default function RadioButtons() {
   }
 
   return (
-    <div>
-      {radioButtons.map((button, index) => (
-        <div
-          onClick={() => {
-            handleSelection(index);
-            console.log(radioButtons);
-          }}
-          key={button.id}
-          style={{
-            backgroundColor: button.isOn ? "rgb(150,150,150)" : "rgb(75,75,75)",
-          }}
-        >
-          {index}
-        </div>
-      ))}
+    <div className="RadioButtonsComponent">
+      <h1 className="RadioButtons__h1">Radio Buttons</h1>
+      <p>Click a button</p>
+      <div className="RadioButtons-wrapper">
+        {radioButtons.map((button, index) => (
+          <div
+            className="RadioButton"
+            onClick={() => {
+              handleSelection(index);
+            }}
+            key={button.id}
+            style={{
+              backgroundColor: button.isOn
+                ? "rgb(150,150,150)"
+                : "rgb(75,75,75)",
+            }}
+          >
+            {button.id}
+          </div>
+        ))}
+      </div>
+      <div className="RadioButtons__gist">
+        <Gist url="https://gist.github.com/thekingvice/9c6029082baeecc55de25c5e93a7b47a" />
+      </div>
     </div>
   );
 }
