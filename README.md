@@ -9,16 +9,15 @@ UNDER CONSTRUCTION
 - Counter (done)
 - Dropdown (done)
 - Image Carrousel (done)
-- Hamburger Menu
+- !Hamburger Menu
 - Accordian (done)
-- Light and Dark Toggle
-- Input Validation with Regex
+- !Light and Dark Toggle
+- !Input Validation with Regex
 - Progress Bar (done)
-- Progress Indicator
 - Popup (done)
 - Tabs (done)
 - Tool Tip (done)
-- Toggle Button
-- Radio Buttons
+- Toggle Switch (done)
+- Radio Buttons (done)
 
 -Bug fixed in Accordian, update corresponding gist

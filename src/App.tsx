@@ -8,6 +8,7 @@ import Popup from "./Components/Popup/Popup";
 import Dropdown from "./Components/Dropdown/Dropdown";
 import Tabs from "./Components/Tabs/Tabs";
 import RadioButtons from "./Components/RadioButtons/RadioButtons";
+import ToggleSwitch from "./Components/Toggle Switch/ToggleSwitch";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Dropdown />
       <Tabs />
       <RadioButtons />
+      <ToggleSwitch />
     </div>
   );
 }
