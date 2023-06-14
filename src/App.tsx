@@ -9,6 +9,7 @@ import Dropdown from "./Components/Dropdown/Dropdown";
 import Tabs from "./Components/Tabs/Tabs";
 import RadioButtons from "./Components/RadioButtons/RadioButtons";
 import ToggleSwitch from "./Components/Toggle Switch/ToggleSwitch";
+import InputValidation from "./InputValidation/InputValidation";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Tabs />
       <RadioButtons />
       <ToggleSwitch />
+      <InputValidation />
     </div>
   );
 }
