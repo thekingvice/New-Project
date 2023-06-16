@@ -9,7 +9,7 @@ import Dropdown from "./Components/Dropdown/Dropdown";
 import Tabs from "./Components/Tabs/Tabs";
 import RadioButtons from "./Components/RadioButtons/RadioButtons";
 import ToggleSwitch from "./Components/Toggle Switch/ToggleSwitch";
-import InputValidation from "./InputValidation/InputValidation";
+import InputValidation from "./Components/InputValidation/InputValidation";
 
 function App() {
   return (

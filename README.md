@@ -11,8 +11,7 @@ UNDER CONSTRUCTION
 - Image Carrousel (done)
 - !Hamburger Menu
 - Accordian (done)
-- !Light and Dark Toggle
-- !Input Validation with Regex
+- Input Validation with Regex (done)
 - Progress Bar (done)
 - Popup (done)
 - Tabs (done)
