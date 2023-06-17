@@ -10,6 +10,7 @@ import Tabs from "./Components/Tabs/Tabs";
 import RadioButtons from "./Components/RadioButtons/RadioButtons";
 import ToggleSwitch from "./Components/Toggle Switch/ToggleSwitch";
 import InputValidation from "./Components/InputValidation/InputValidation";
+import HamburgerMenu from "./Components/HamburgerMenu/HamburgerMenu";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <RadioButtons />
       <ToggleSwitch />
       <InputValidation />
+      <HamburgerMenu />
     </div>
   );
 }

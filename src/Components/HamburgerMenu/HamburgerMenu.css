@@ -1,0 +1,49 @@
+.wrapper {
+  max-width: 100%;
+  width: 20rem;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+}
+
+nav {
+  background: rgb(75, 75, 75);
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-bottom: 10rem;
+}
+
+.hamburger {
+  width: 2rem;
+  cursor: pointer;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(295deg)
+    brightness(104%) contrast(102%);
+}
+
+.menu-icon {
+  /* close */
+  width: 2rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(295deg)
+    brightness(104%) contrast(102%);
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  gap: 0.5rem;
+  height: 14rem;
+  background: rgb(150, 150, 150);
+  padding: 1rem 1rem 2rem 5rem;
+  right: 0rem;
+  top: 0;
+}
+
+.option {
+  text-decoration: none;
+  color: white;
+}

@@ -9,15 +9,19 @@ export default function InputValidation() {
 
   const [textColor, setTextColor] = useState(true);
 
+  const [showResult, setShowResult] = useState(false);
+
   function handleValidation(str: string) {
     const regex = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
     const isMatch = regex.test(str);
     if (isMatch) {
       setResult("Valid Input");
       setTextColor(true);
+      setShowResult(true);
     } else {
       setResult("Error: Invalid Input");
       setTextColor(false);
+      setShowResult(true);
     }
   }
 
@@ -48,7 +52,10 @@ export default function InputValidation() {
       </div>
       <p
         className="InputValidation__result"
-        style={{ background: textColor ? "green" : "red" }}
+        style={{
+          background: textColor ? "green" : "red",
+          display: showResult ? "block" : "none",
+        }}
       >
         {result}
       </p>
