@@ -9,7 +9,7 @@ UNDER CONSTRUCTION
 - Counter (done)
 - Dropdown (done)
 - Image Carrousel (done)
-- !Hamburger Menu
+- Hamburger Menu
 - Accordian (done)
 - Input Validation with Regex (done)
 - Progress Bar (done)
