@@ -3,3 +3,25 @@
   flex-direction: column;
   /* gap: 5rem; */
 }
+
+.Navigation {
+  /* padding: 1rem; */
+
+  /* width: 100%; */
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.hamburger {
+  width: 3rem;
+}
+
+/* .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  padding: 1rem 1rem 0 0;
+  top: 0;
+  right: 0;
+} */

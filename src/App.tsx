@@ -15,6 +15,29 @@ import HamburgerMenu from "./Components/HamburgerMenu/HamburgerMenu";
 function App() {
   return (
     <div className="App">
+      {/* <nav className="Navigation">
+        <div className="mobile-menu">
+          <img
+            className="menu-icon"
+            src="/hamburger_menu_images/close.svg"
+            alt=""
+          />
+          <a href="" className="option">
+            Home
+          </a>
+          <a href="" className="option">
+            About
+          </a>
+          <a href="" className="option">
+            Social
+          </a>
+        </div>
+        <img
+          className="hamburger"
+          src="/hamburger_menu_images/hamburger-menu.svg"
+          alt="menu"
+        />
+      </nav> */}
       <Counter />
       <ProgressBar />
       <Carrousel />
@@ -26,7 +49,7 @@ function App() {
       <RadioButtons />
       <ToggleSwitch />
       <InputValidation />
-      <HamburgerMenu />
+      {/* <HamburgerMenu /> */}
     </div>
   );
 }
