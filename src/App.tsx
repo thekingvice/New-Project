@@ -15,7 +15,7 @@ import HamburgerMenu from "./Components/HamburgerMenu/HamburgerMenu";
 function App() {
   return (
     <div className="App">
-      {/* <nav className="Navigation">
+      <nav className="Navigation">
         <div className="mobile-menu">
           <img
             className="menu-icon"
@@ -37,7 +37,7 @@ function App() {
           src="/hamburger_menu_images/hamburger-menu.svg"
           alt="menu"
         />
-      </nav> */}
+      </nav>
       <Counter />
       <ProgressBar />
       <Carrousel />
