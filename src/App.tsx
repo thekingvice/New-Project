@@ -1,4 +1,5 @@
 import "./App.css";
+// import { useState } from "react";
 import Counter from "./Components/Counter/Counter";
 import Carrousel from "./Components/Carrousel/Carrousel";
 import Accordian from "./Components/Accordian/Accordian";
@@ -13,31 +14,43 @@ import InputValidation from "./Components/InputValidation/InputValidation";
 import HamburgerMenu from "./Components/HamburgerMenu/HamburgerMenu";
 
 function App() {
+  // const [isOpen, setIsOpen] = useState(false);
+
+  // function toggleMenu() {
+  //   setIsOpen(!isOpen);
+  // }
+
   return (
     <div className="App">
-      <nav className="Navigation">
-        <div className="mobile-menu">
+      {/* <nav className="HamburgerMenu">
+        <img
+          className="HamburgerMenu__icon"
+          src="/hamburger_menu_images/hamburger-menu.svg"
+          alt="menu"
+          onClick={toggleMenu}
+          style={{ visibility: isOpen ? "hidden" : "visible" }}
+        />
+        <div
+          className="HamburgerMenu__mobile-menu"
+          style={{ display: isOpen ? "flex" : "none" }}
+        >
           <img
-            className="menu-icon"
+            className="HamburgerMenu__close-icon"
             src="/hamburger_menu_images/close.svg"
-            alt=""
+            alt="close-icon"
+            onClick={toggleMenu}
           />
-          <a href="" className="option">
+          <a href="" className="HamburgerMenu__option">
             Home
           </a>
-          <a href="" className="option">
+          <a href="" className="HamburgerMenu__option">
             About
           </a>
-          <a href="" className="option">
+          <a href="" className="HamburgerMenu__option">
             Social
           </a>
         </div>
-        <img
-          className="hamburger"
-          src="/hamburger_menu_images/hamburger-menu.svg"
-          alt="menu"
-        />
-      </nav>
+      </nav> */}
       <Counter />
       <ProgressBar />
       <Carrousel />
@@ -49,7 +62,7 @@ function App() {
       <RadioButtons />
       <ToggleSwitch />
       <InputValidation />
-      {/* <HamburgerMenu /> */}
+      <HamburgerMenu />
     </div>
   );
 }

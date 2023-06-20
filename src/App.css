@@ -4,24 +4,22 @@
   /* gap: 5rem; */
 }
 
-.Navigation {
-  padding: 1rem;
-
+/* .HamburgerMenu {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  position: relative;
+  position: fixed;
 }
 
-.hamburger {
+.HamburgerMenu__icon {
   width: 3rem;
 }
 
-.mobile-menu {
+.HamburgerMenu__mobile-menu {
   display: flex;
   flex-direction: column;
   position: fixed;
-  padding: 1rem 1rem 0 0;
+  padding: 0 0 100% 0;
   top: 0;
-  left: 0;
-}
+  right: 0;
+} */

@@ -1,11 +1,26 @@
-/* .wrapper {
-  max-width: 100%;
-  width: 20rem;
-  border: 1px solid white;
-  border-radius: 0.3rem;
+.HamburgerMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
 }
 
-nav {
+.HamburgerMenu__h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.HamburgerMenu__wrapper {
+  max-width: 100%;
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+
+.HamburgerMenu__nav {
   background: rgb(75, 75, 75);
   padding: 1rem;
   display: flex;
@@ -14,14 +29,14 @@ nav {
   margin-bottom: 10rem;
 }
 
-.hamburger {
+.HamburgerMenu__icon {
   width: 2rem;
   cursor: pointer;
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(295deg)
     brightness(104%) contrast(102%);
 }
 
-.menu-icon {
+.HamburgerMenu__close-icon {
   width: 2rem;
   cursor: pointer;
   margin-bottom: 1rem;
@@ -29,7 +44,7 @@ nav {
     brightness(104%) contrast(102%);
 }
 
-.mobile-menu {
+.HamburgerMenu__mobile-menu {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -37,12 +52,17 @@ nav {
   gap: 0.5rem;
   height: 14rem;
   background: rgb(150, 150, 150);
-  padding: 1rem 1rem 2rem 5rem;
+  padding: 1rem 1rem 100% 25%;
   right: 0rem;
   top: 0;
 }
 
-.option {
+.HamburgerMenu__option {
   text-decoration: none;
   color: white;
-} */
+}
+
+.HamburgerMenu__gist {
+  max-width: 100%;
+  width: 50rem;
+}
