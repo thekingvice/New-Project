@@ -9,14 +9,14 @@ UNDER CONSTRUCTION
 - Counter (done)
 - Dropdown (done)
 - Image Carrousel (done)
-- Hamburger Menu
+- Hamburger Menu (done) x
 - Accordian (done)
-- Input Validation with Regex (done)
+- Input Validation with Regex (done) x
 - Progress Bar (done)
 - Popup (done)
 - Tabs (done)
 - Tool Tip (done)
-- Toggle Switch (done)
-- Radio Buttons (done)
+- Toggle Switch (done) x
+- Radio Buttons (done) x
 
 -Bug fixed in Accordian, update corresponding gist
