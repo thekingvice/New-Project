@@ -61,6 +61,18 @@ export default function InputValidation() {
       </p>
       <div className="InputValidation__gist">
         <Gist url="https://gist.github.com/thekingvice/dcc75008e68207ae4a659fca0fb025e7" />
+        <a
+          className="Sandbox__link"
+          href="https://codesandbox.io/s/input-validation-4p5322"
+          target="_blank"
+        >
+          Test on CodeSandbox
+          <img
+            className="Sandbox__icon"
+            src="/codesandbox.svg"
+            alt="codesandbox-logo"
+          />
+        </a>
       </div>
     </div>
   );

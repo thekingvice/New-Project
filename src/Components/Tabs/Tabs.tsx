@@ -56,6 +56,18 @@ export default function Tabs() {
 
       <div className="Tabs__gist">
         <Gist url="https://gist.github.com/thekingvice/c5dbcf4cceaffccb4f3cd54b9ce0ec5f" />
+        <a
+          className="Sandbox__link"
+          href="https://codesandbox.io/s/tabs-w7xjf8"
+          target="_blank"
+        >
+          Test on CodeSandbox
+          <img
+            className="Sandbox__icon"
+            src="/codesandbox.svg"
+            alt="codesandbox-logo"
+          />
+        </a>
       </div>
     </div>
   );

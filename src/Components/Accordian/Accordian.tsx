@@ -51,6 +51,18 @@ export default function Accordian() {
       </ul>
       <div className="Accordian__gist">
         <Gist url="https://gist.github.com/thekingvice/781aff7da4e52ec615685820fdfe2713" />
+        <a
+          className="Sandbox__link"
+          href="https://codesandbox.io/s/accordian-ykxsfw"
+          target="_blank"
+        >
+          Test on CodeSandbox
+          <img
+            className="Sandbox__icon"
+            src="/codesandbox.svg"
+            alt="codesandbox-logo"
+          />
+        </a>
       </div>
     </div>
   );

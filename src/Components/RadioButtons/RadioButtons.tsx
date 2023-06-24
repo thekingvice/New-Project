@@ -45,6 +45,18 @@ export default function RadioButtons() {
       </div>
       <div className="RadioButtons__gist">
         <Gist url="https://gist.github.com/thekingvice/9c6029082baeecc55de25c5e93a7b47a" />
+        <a
+          className="Sandbox__link"
+          href="https://codesandbox.io/s/radio-buttons-7fgjl3"
+          target="_blank"
+        >
+          Test on CodeSandbox
+          <img
+            className="Sandbox__icon"
+            src="/codesandbox.svg"
+            alt="codesandbox-logo"
+          />
+        </a>
       </div>
     </div>
   );

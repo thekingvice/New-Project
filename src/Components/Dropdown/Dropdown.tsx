@@ -16,6 +16,18 @@ export default function Dropdown() {
       </div>
       <div className="Dropdown__gist">
         <Gist url="https://gist.github.com/thekingvice/f6b611dd407e9e6ac82e768c892dff13" />
+        <a
+          className="Sandbox__link"
+          href="https://codesandbox.io/s/dropdown-vcj53y"
+          target="_blank"
+        >
+          Test on CodeSandbox
+          <img
+            className="Sandbox__icon"
+            src="/codesandbox.svg"
+            alt="codesandbox-logo"
+          />
+        </a>
       </div>
     </div>
   );

@@ -37,7 +37,11 @@ export default function Counter() {
           target="_blank"
         >
           Test on CodeSandbox
-          <img className="Sandbox__icon" src="/codesandbox.svg" alt="" />
+          <img
+            className="Sandbox__icon"
+            src="/codesandbox.svg"
+            alt="codesandbox-logo"
+          />
         </a>
       </div>
     </div>

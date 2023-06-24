@@ -49,6 +49,18 @@ export default function Carrousel() {
       <>{position + 1}</>
       <div className="Carrousel__gist">
         <Gist url="https://gist.github.com/thekingvice/bf8e9e9203c6559cbc45759f763e310a" />
+        <a
+          className="Sandbox__link"
+          href="https://codesandbox.io/s/carrousel-wsj2wh"
+          target="_blank"
+        >
+          Test on CodeSandbox
+          <img
+            className="Sandbox__icon"
+            src="/codesandbox.svg"
+            alt="codesandbox-logo"
+          />
+        </a>
       </div>
     </div>
   );

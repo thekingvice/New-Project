@@ -40,6 +40,18 @@ export default function HamburgerMenu() {
       </div>
       <div className="HamburgerMenu__gist">
         <Gist url="https://gist.github.com/thekingvice/da9c109130189033da71c924a9b60e8f" />
+        <a
+          className="Sandbox__link"
+          href="https://codesandbox.io/s/hamburger-menu-5n4w7g"
+          target="_blank"
+        >
+          Test on CodeSandbox
+          <img
+            className="Sandbox__icon"
+            src="/codesandbox.svg"
+            alt="codesandbox-logo"
+          />
+        </a>
       </div>
     </div>
   );

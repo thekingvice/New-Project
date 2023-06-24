@@ -22,6 +22,18 @@ export default function ToggleSwitch() {
       </div>
       <div className="ToggleSwitch__gist">
         <Gist url="https://gist.github.com/thekingvice/56ba84b9b41b9854ced32670964b5f04" />
+        <a
+          className="Sandbox__link"
+          href="https://codesandbox.io/s/toggle-switch-kmy4ds"
+          target="_blank"
+        >
+          Test on CodeSandbox
+          <img
+            className="Sandbox__icon"
+            src="/codesandbox.svg"
+            alt="codesandbox-logo"
+          />
+        </a>
       </div>
     </div>
   );

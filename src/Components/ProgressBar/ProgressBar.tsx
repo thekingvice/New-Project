@@ -38,6 +38,18 @@ export default function ProgressBar() {
       </div>
       <div className="ProgressBar__gist">
         <Gist url="https://gist.github.com/thekingvice/add3ffc62fbce47a6bce9fdf739add5b" />
+        <a
+          className="Sandbox__link"
+          href="https://codesandbox.io/s/progress-bar-nmkzfz"
+          target="_blank"
+        >
+          Test on CodeSandbox
+          <img
+            className="Sandbox__icon"
+            src="/codesandbox.svg"
+            alt="codesandbox-logo"
+          />
+        </a>
       </div>
     </div>
   );
