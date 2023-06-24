@@ -31,6 +31,14 @@ export default function Counter() {
 
       <div className="Counter__gist">
         <Gist url="https://gist.github.com/thekingvice/4d1bb951905be671192ce8c51ca44efa" />
+        <a
+          className="Sandbox__link"
+          href="https://codesandbox.io/s/counter-9tsjqh"
+          target="_blank"
+        >
+          Test on CodeSandbox
+          <img className="Sandbox__icon" src="/codesandbox.svg" alt="" />
+        </a>
       </div>
     </div>
   );
