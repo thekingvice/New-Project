@@ -1,5 +1,5 @@
 import "./App.css";
-// import { useState } from "react";
+import { useState } from "react";
 import Counter from "./Components/Counter/Counter";
 import Carrousel from "./Components/Carrousel/Carrousel";
 import Accordian from "./Components/Accordian/Accordian";
@@ -14,43 +14,43 @@ import InputValidation from "./Components/InputValidation/InputValidation";
 import HamburgerMenu from "./Components/HamburgerMenu/HamburgerMenu";
 
 function App() {
-  // const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  // function toggleMenu() {
-  //   setIsOpen(!isOpen);
-  // }
+  function toggleMenu() {
+    setIsOpen(!isOpen);
+  }
 
   return (
     <div className="App">
-      {/* <nav className="HamburgerMenu">
+      <nav className="App__nav">
         <img
-          className="HamburgerMenu__icon"
+          className="App__nav-menu-icon"
           src="/hamburger_menu_images/hamburger-menu.svg"
           alt="menu"
           onClick={toggleMenu}
           style={{ visibility: isOpen ? "hidden" : "visible" }}
         />
         <div
-          className="HamburgerMenu__mobile-menu"
+          className="App__nav-menu"
           style={{ display: isOpen ? "flex" : "none" }}
         >
           <img
-            className="HamburgerMenu__close-icon"
+            className="App__nav-mobile-menu-icon-close"
             src="/hamburger_menu_images/close.svg"
             alt="close-icon"
             onClick={toggleMenu}
           />
-          <a href="" className="HamburgerMenu__option">
+          <a href="" className="App__nav-menu-option">
             Home
           </a>
-          <a href="" className="HamburgerMenu__option">
+          <a href="" className="App__nav-menu-option">
             About
           </a>
-          <a href="" className="HamburgerMenu__option">
+          <a href="" className="App__nav-menu-option">
             Social
           </a>
         </div>
-      </nav> */}
+      </nav>
       <Counter />
       <ProgressBar />
       <Carrousel />

@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  /* gap: 5rem; */
+  gap: 5rem;
 }
 
 .Sandbox__link {
@@ -17,22 +17,22 @@
     brightness(104%) contrast(102%);
 }
 
-/* .HamburgerMenu {
+.App__nav {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   position: fixed;
 }
 
-.HamburgerMenu__icon {
+.App__nav-menu-icon {
   width: 3rem;
 }
 
-.HamburgerMenu__mobile-menu {
+.App__nav-menu {
   display: flex;
   flex-direction: column;
   position: fixed;
   padding: 0 0 100% 0;
   top: 0;
   right: 0;
-} */
+}
