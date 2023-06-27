@@ -1,5 +1,8 @@
 import "./App.css";
 import { useState } from "react";
+import "animate.css/animate.compat.css";
+import "animate.css";
+import ScrollAnimation from "react-animate-on-scroll";
 import Counter from "./Components/Counter/Counter";
 import Carrousel from "./Components/Carrousel/Carrousel";
 import Accordian from "./Components/Accordian/Accordian";
@@ -51,18 +54,55 @@ function App() {
           </a>
         </div>
       </nav>
-      <Counter />
-      <ProgressBar />
-      <Carrousel />
-      <Accordian />
-      <ToolTip />
-      <Popup />
-      <Dropdown />
-      <Tabs />
-      <RadioButtons />
-      <ToggleSwitch />
-      <InputValidation />
-      <HamburgerMenu />
+
+      <section
+        style={{
+          display: "flex",
+          height: "100vh",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <div className="ScrollDown ">Scroll Down</div>
+      </section>
+
+      {/* animate__animated animate__shakeY */}
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <Counter />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <ProgressBar />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <Carrousel />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <Accordian />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <ToolTip />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <Popup />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <Dropdown />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <Tabs />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <RadioButtons />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <ToggleSwitch />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <InputValidation />
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <HamburgerMenu />
+      </ScrollAnimation>
     </div>
   );
 }

@@ -36,3 +36,9 @@
   top: 0;
   right: 0;
 }
+
+.ScrollDown {
+  animation: shakeY;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
