@@ -17,28 +17,30 @@
     brightness(104%) contrast(102%);
 }
 
-.App__nav {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  position: fixed;
-}
-
-.App__nav-menu-icon {
-  width: 3rem;
-}
-
-.App__nav-menu {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  padding: 0 0 100% 0;
-  top: 0;
-  right: 0;
-}
-
 .ScrollDown {
   animation: shakeY;
   animation-duration: 7s;
   animation-iteration-count: infinite;
+}
+
+.Navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Navigation__hamburger-menu-wrapper {
+  display: flex;
+}
+
+.Navigation__hamburger-icon {
+  width: 3rem;
+}
+
+.Navigation__close-icon {
+  width: 3rem;
+}
+
+.Navigation__menu {
+  display: flex;
+  flex-direction: column;
 }

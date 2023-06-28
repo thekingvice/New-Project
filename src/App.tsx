@@ -25,33 +25,30 @@ function App() {
 
   return (
     <div className="App">
-      <nav className="App__nav">
-        <img
-          className="App__nav-menu-icon"
-          src="/hamburger_menu_images/hamburger-menu.svg"
-          alt="menu"
-          onClick={toggleMenu}
-          style={{ visibility: isOpen ? "hidden" : "visible" }}
-        />
-        <div
-          className="App__nav-menu"
-          style={{ display: isOpen ? "flex" : "none" }}
-        >
+      <nav className="Navigation">
+        <div className="Navigation__hamburger-menu-wrapper">
           <img
-            className="App__nav-mobile-menu-icon-close"
-            src="/hamburger_menu_images/close.svg"
-            alt="close-icon"
+            className="Navigation__hamburger-icon"
             onClick={toggleMenu}
+            src="/hamburger_menu_images/hamburger-menu.svg"
+            alt="menu"
           />
-          <a href="" className="App__nav-menu-option">
-            Home
-          </a>
-          <a href="" className="App__nav-menu-option">
-            About
-          </a>
-          <a href="" className="App__nav-menu-option">
-            Social
-          </a>
+          <div className="Navigation__menu">
+            <img
+              src="/hamburger_menu_images/close.svg"
+              alt=""
+              className="Navigation__close-icon"
+            />
+            <a href="" className="Navigation__option" id="section1">
+              Section 1
+            </a>
+            <a href="" className="Navigation__option" id="section2">
+              Section 2
+            </a>
+            <a href="" className="Navigation__option" id="section3">
+              Section 3
+            </a>
+          </div>
         </div>
       </nav>
 
@@ -68,6 +65,7 @@ function App() {
 
       {/* animate__animated animate__shakeY */}
       <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <div id="section-1"></div>
         <Counter />
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
