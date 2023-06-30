@@ -64,10 +64,11 @@ function App() {
       </section>
 
       {/* animate__animated animate__shakeY */}
+
       <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
-        <div id="section-1"></div>
         <Counter />
       </ScrollAnimation>
+
       <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
         <ProgressBar />
       </ScrollAnimation>
