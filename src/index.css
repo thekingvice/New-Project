@@ -12,14 +12,15 @@
   border: 0;
   font: inherit;
   background: none;
-  background: rgba(146, 146, 146, 0.266);
-  outline: dotted 2px;
+  /* background: rgba(146, 146, 146, 0.266);
+  outline: dotted 2px; */
 }
 
 html {
   font-family: "Poppins", sans-serif;
   color: white;
   background: rgb(40, 40, 40);
+  background: rgb(42, 25, 52);
 }
 
 body {
