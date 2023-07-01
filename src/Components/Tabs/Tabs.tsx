@@ -38,8 +38,8 @@ export default function Tabs() {
               }}
               style={{
                 backgroundColor: tab.isOpen
-                  ? "rgb(150, 150, 150)"
-                  : "rgb(75, 75, 75)",
+                  ? "rgb(75, 75, 75)"
+                  : "rgb(50, 50, 50)",
               }}
             >
               Tab {tab.id}

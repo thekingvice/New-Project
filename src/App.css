@@ -21,15 +21,40 @@
   animation: shakeY;
   animation-duration: 7s;
   animation-iteration-count: infinite;
+  position: relative;
+  top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 70%;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header-react {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.React-Logo {
+  width: 2.5rem;
+}
+
+.DownArrow {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(295deg);
 }
 
 .Navigation {
   display: flex;
   justify-content: flex-end;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   position: fixed;
   width: 100%;
   z-index: 1;
+  background-color: rgb(35, 35, 35);
 }
 
 .Navigation__hamburger-menu-wrapper {
@@ -57,12 +82,13 @@
   flex-direction: column;
   align-items: end;
   position: fixed;
-  padding: 1rem 1rem 1rem 5rem;
+  padding: 0.5rem 1rem 0.5rem 5rem;
   height: 100vh;
   top: 0;
   right: 0;
   gap: 1rem;
-  background: rgb(55, 33, 68);
+  background: rgb(50, 50, 50);
+  border-radius: 1rem;
 }
 
 .Link {

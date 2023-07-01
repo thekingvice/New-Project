@@ -24,6 +24,7 @@
   background: rgb(75, 75, 75);
   padding: 1rem;
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 .Accordian__tab-content {

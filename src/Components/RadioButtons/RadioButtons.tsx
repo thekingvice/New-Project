@@ -35,7 +35,7 @@ export default function RadioButtons() {
             key={button.id}
             style={{
               backgroundColor: button.isOn
-                ? "rgb(150,150,150)"
+                ? "rgb(4, 170, 109)"
                 : "rgb(75,75,75)",
             }}
           >

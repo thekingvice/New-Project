@@ -24,11 +24,13 @@
   background-color: rgb(150, 150, 150);
   padding: 0.25rem 1rem;
   cursor: pointer;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .Tabs__content {
-  background-color: rgb(150, 150, 150);
+  background-color: rgb(75, 75, 75);
   padding: 1rem;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
 }
 
 .Tabs__gist {

@@ -53,7 +53,7 @@ export default function InputValidation() {
       <p
         className="InputValidation__result"
         style={{
-          background: textColor ? "green" : "red",
+          background: textColor ? "rgb(4, 170, 109)" : "red",
           display: showResult ? "block" : "none",
         }}
       >

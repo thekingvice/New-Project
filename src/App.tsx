@@ -15,7 +15,7 @@ import Tabs from "./Components/Tabs/Tabs";
 import RadioButtons from "./Components/RadioButtons/RadioButtons";
 import ToggleSwitch from "./Components/Toggle Switch/ToggleSwitch";
 import InputValidation from "./Components/InputValidation/InputValidation";
-import HamburgerMenu from "./Components/HamburgerMenu/HamburgerMenu";
+// import HamburgerMenu from "./Components/HamburgerMenu/HamburgerMenu";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -145,9 +145,20 @@ function App() {
           height: "100vh",
           alignItems: "center",
           justifyContent: "center",
+          flexDirection: "column",
         }}
       >
-        <div className="ScrollDown ">Scroll Down</div>
+        <h1 className="Header" style={{ fontSize: "2rem", fontWeight: 700 }}>
+          Simple
+          <h1 className="Header-react">
+            React <img className="React-Logo" src="/react.svg" alt="" />
+          </h1>{" "}
+          Components.
+        </h1>
+        <div className="ScrollDown ">
+          <p>Scroll Down</p>
+          <img className="DownArrow" src="/arrow_down.svg" alt="down-arrow" />
+        </div>
       </section>
 
       {/* animate__animated animate__shakeY */}
