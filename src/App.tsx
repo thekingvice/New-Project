@@ -152,7 +152,7 @@ function App() {
           Simple
           <h1 className="Header-react">
             React <img className="React-Logo" src="/react.svg" alt="" />
-          </h1>{" "}
+          </h1>
           Components.
         </h1>
         <div className="ScrollDown ">
