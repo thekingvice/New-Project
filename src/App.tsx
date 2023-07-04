@@ -3,7 +3,7 @@ import { useState } from "react";
 import "animate.css/animate.compat.css";
 import "animate.css";
 import { Link, Element } from "react-scroll";
-import ScrollAnimation from "react-animate-on-scroll";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 import Counter from "./Components/Counter/Counter";
 import Carrousel from "./Components/Carrousel/Carrousel";
 import Accordian from "./Components/Accordian/Accordian";
@@ -163,75 +163,75 @@ function App() {
 
       {/* animate__animated animate__shakeY */}
       <Element name="section1">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <Counter />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element>
 
       <Element name="section2">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <ProgressBar />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element>
 
       <Element name="section3">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <Carrousel />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element>
 
       <Element name="section4">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <Accordian />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element>
 
       <Element name="section5">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <ToolTip />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element>
 
       <Element name="section6">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <Popup />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element>
 
       <Element name="section7">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <Dropdown />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element>
 
       <Element name="section8">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <Tabs />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element>
 
       <Element name="section9">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <RadioButtons />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element>
 
       <Element name="section10">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <ToggleSwitch />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element>
 
       <Element name="section11">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <InputValidation />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element>
 
       {/* <Element name="section12">
-        <ScrollAnimation animateIn="fadeIn" offset={100} animateOnce={true}>
+        <AnimationOnScroll animateIn="fadeIn" offset={100} animateOnce={true}>
           <HamburgerMenu />
-        </ScrollAnimation>
+        </AnimationOnScroll>
       </Element> */}
     </div>
   );
