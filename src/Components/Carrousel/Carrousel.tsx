@@ -46,7 +46,7 @@ export default function Carrousel() {
           onClick={incrementPositionPlus}
         >{`>`}</button>
       </div>
-      <>{position + 1}</>
+      <>Image {position + 1}</>
       <div className="Carrousel__gist">
         <Gist url="https://gist.github.com/thekingvice/bf8e9e9203c6559cbc45759f763e310a" />
         <a
