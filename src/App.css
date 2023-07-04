@@ -82,13 +82,15 @@
   flex-direction: column;
   align-items: end;
   position: fixed;
-  padding: 0.5rem 1rem 0.5rem 5rem;
   height: 100vh;
   top: 0;
   right: 0;
   gap: 1rem;
   background: rgb(50, 50, 50);
   border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.25s;
+  white-space: nowrap;
 }
 
 .Link {

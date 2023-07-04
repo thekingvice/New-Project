@@ -37,7 +37,12 @@ function App() {
           />
           <div
             className="Navigation__menu"
-            style={{ visibility: isOpen ? "visible" : "hidden" }}
+            // style={{ visibility: isOpen ? "visible" : "hidden" }}
+            style={{
+              width: isOpen ? "14rem" : "0rem",
+              padding: isOpen ? "0.5rem 1rem" : "0rem",
+              opacity: isOpen ? "100%" : "0%",
+            }}
           >
             <img
               src="/hamburger_menu_images/close.svg"
