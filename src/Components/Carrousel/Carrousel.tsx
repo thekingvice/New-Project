@@ -5,7 +5,6 @@ import Gist from "super-react-gist";
 export default function Carrousel() {
   const [position, setPosition] = useState(0);
 
-  //Images are placed inside their own directory called "carrousel_images" within the "public" directory
   const imagePaths = [
     "/carrousel_images/skill-icons_react-dark.png",
     "/carrousel_images/skill-icons_angular-dark.png",

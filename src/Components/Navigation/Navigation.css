@@ -47,3 +47,7 @@
 .Link {
   cursor: pointer;
 }
+
+.Link:hover {
+  font-weight: 700;
+}
