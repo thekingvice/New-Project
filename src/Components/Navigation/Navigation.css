@@ -32,6 +32,7 @@
   display: flex;
   flex-direction: column;
   align-items: end;
+  justify-content: space-between;
   position: fixed;
   height: 100vh;
   top: 0;
@@ -42,6 +43,22 @@
   overflow: hidden;
   transition: all 0.25s;
   white-space: nowrap;
+}
+
+.Navigation__menu-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.Navigation__social-wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.Navigation__social-icon {
+  width: 2rem;
 }
 
 .Link {
