@@ -1,4 +1,4 @@
-# New-Project
+# Simple React Components
 
 Simple React Components for Frontend Devs
 
